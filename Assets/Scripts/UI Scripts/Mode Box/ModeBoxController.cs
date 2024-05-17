@@ -25,7 +25,7 @@ public class ModeBoxController : MonoBehaviour
         }
         else
         {
-            //modeDescriptionBox.SetActive(false);
+            modeDescriptionBox.SetActive(false);
         }
     }
 
