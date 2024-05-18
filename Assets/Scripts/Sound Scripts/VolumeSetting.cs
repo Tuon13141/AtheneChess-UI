@@ -18,7 +18,7 @@ public class VolumeSetting : MonoBehaviour
     }
     public void ChangeAudioVolume()
     {
-        Debug.Log(PlayerPrefs.GetFloat(audioName));
+        //Debug.Log(PlayerPrefs.GetFloat(audioName));
         float volume = 0;
         if (audioSlider.value == 0)
         {
